@@ -2,7 +2,7 @@ from burnFuncs import *
 import os, telebot, time
 
 bot = telebot.TeleBot(os.environ["TELEGRAM_DRIP_SACRIFICED_API_KEY"])
-print('SACRIFICED bot active.')
+print('DRIP SACRIFICED bot active.')
 
 
 @bot.message_handler(commands=['start', 'help'])
